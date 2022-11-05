@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" style="margin: 20px 30px">
+<head>
+    <title>Invoice</title>
+    <style type="text/css">
+        .page {
+            page-break-after: always;
+        }
+        .page:last-child {
+            page-break-after: unset;
+        }
+        @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+        * {
+          font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          color: #333447;
+          line-height: 1.5;
+        }
+        .titles{
+            background: #DCDCDC;
+        }
+        .tables{
+            margin: 0;
+            border-collapse: collapse;
+        }
+        #product_trtd {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom: 0.01em solid #ccc;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .tableth, .tabletd {
+            text-align: center;
+            padding: 0.25em;
+            font-size: 14px;
+        }
+    
+        
+       
+        th span, .footer-table span{
+            font-family: DejaVu Sans; 
+        }
+        #details_header{
+            margin-right: 5px;
+            font-weight: bold;
+            border-bottom: 1px solid #8B8B8B;
+            margin-bottom: 4px;
+        }
+        table, td, th  {
+  border: 1px solid;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+    </style>
+</head>
+<body>
+<div class="page">
+<table width="100%" style="border: none;">
+<thead>
+    <tr>
+        <td width="30%" align="left" style="border: none;">
+            <img src="' . $base64 . '" alt="Ghoomteraho Holidays logo" style="width:100%; max-width:150px;">
+        </td>
+        <td width="20%" align="center"style="border: none; ">
+
+        </td>
+       
+    </tr>
+</thead>
+</table>
+<h2 style="text-align :center; margin:0;">Form 11</h2>
+<h4 style="text-align :center; margin:0;">(See rule no 64 and 62)</h4>
+<h5 style="text-align :center; margin:0;"><i>Report of Examination of hoist or Lift, Lifting Machine, Chains, Ropes and Lifting Tackles</i></h5>
+<table align="right" width="100%">
+<thead><tr><th height="3"><i>certificate no: AIL-M/2209/023</i></th></tr></thead>
+</table>
+<table  style="border-top: none;" >
+    <tr><th style="border-top: none;">1.</th>
+    <th style="border-top: none;">Name of Ocupier</th>
+    <th width="5"style="border-top: none;"></th>
+    <th style="border-top: none;">Afracons Private Limited</th></tr>
+</table>
+</div>
+</body>
+</html>'
